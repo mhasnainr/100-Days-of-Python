@@ -18,11 +18,11 @@ console.log(personName.toUpperCase());
 // Error: titlecase part
 
 // function toTitleCase(name: string): string {
-//     return name
-//       .split(" ")
-//       .map((word) => word[0].toUpperCase() + word.slice(1).toLowerCase())
-//       .join(" ");
-//   }
+//   return name
+//     .split(" ")
+//     .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+//     .join(" ");
+// }
 
-//   const personName = "john doe";
-//   console.log(toTitleCase(personName)); // Output: "John Doe"
+// const personName: string = "john doe";
+// console.log(toTitleCase(personName)); // Output: "John Doe"
