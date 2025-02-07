@@ -1,0 +1,11 @@
+Topics
+
+- Data types
+
+- Numbers
+
+- Operations
+
+- Type Conversion
+
+- f-Strings
