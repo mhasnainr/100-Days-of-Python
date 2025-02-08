@@ -29,7 +29,6 @@
 # --- 4. Boolean: True or False
 
 
-
 # ------------- 03: Quiz [Data types]: html file
 
 
@@ -61,7 +60,6 @@
 # print(str('23') + str('4334')) # 234334
 
 
-
 # ------------- 05: Coding Ex
 
 # adding 2 digit numbers
@@ -74,8 +72,6 @@
 # second_digit = int(two_digit_num[1])
 
 # print(first_digit + second_digit)
-
-
 
 
 # ------------- 06: Operations
@@ -122,6 +118,65 @@
 # print(result)
 
 
-
 # ------------- 08: Number Manipulation & f-Strings
+
+# print(11 / 3) # 3.666_ _ _ _
+# print(int(11 / 3)) # 3
+# print(round(11 / 3)) # 4
+
+# note:
+# int() rounds backward
+# round() rounds forward
+
+# in order to round it to specific decimal place
+# print(round(11 / 3, 2)) # 2.67
+
+# print(round(32.4322554452, 3))  # 32.432
+
+# print(9 // 2)  # Ans. is 4: flow division way
+# print(type(9 // 2)) # 'int
+# print(type(9 / 2)) # 'float'
+# print(type(9 / 3)) # 'float'
+
+# -- Number Manipulation
+
+# score = 0
+
+# score += 5  # 5
+# score -= 2  # 3
+# score *= 3  # 9
+# score /= 2  # 4.5
+# print(score)
+
+
+# -- f-strings
+
+# score = 0
+# height = 1.5
+# isWinning = True
+
+# print(f"your score is {score}, your height is {height}, your winning news is {isWinning}")
+
+
+# ------------- 09: Coding Ex: Life in Weeks
+
+# age = int(input())
+# weeks = 52
+# age_in_weeks = age * 52
+# avg_age = 90
+# total_weeks = weeks * avg_age
+# weeks_left = total_weeks - age_in_weeks
+
+# or
+
+# age = input()
+# years = 90 - int(age)
+# weeks_left = years + 52
+
+# second method isn't giving correct answer
+
+# print(f"Your average age left (in weeks) is {weeks_left} weeks")
+
+
+# ------------- 10: Quiz [Operations]
 
