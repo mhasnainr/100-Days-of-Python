@@ -199,8 +199,3 @@ import random
 #
 
 # print(f"\n{line1}\n{line2}\n{line3}")
-
-
-# ------------------------ 09: Project: Rock, Paper and Scissors
-
-#
