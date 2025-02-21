@@ -93,7 +93,7 @@
 # Subtraction: -
 # LR: Left to right
 
-# note: multiplication and division ar eequally prioritized
+# note: multiplication and division ar equally prioritized
 # print(3 * 3 + 3 / 3 - 3) # 7
 
 # in order to get an answer of 3 instead of 7
@@ -134,7 +134,7 @@
 # print(round(32.4322554452, 3))  # 32.432
 
 # print(9 // 2)  # Ans. is 4: flow division way
-# print(type(9 // 2)) # 'int
+# print(type(9 // 2)) # 'int'
 # print(type(9 / 2)) # 'float'
 # print(type(9 / 3)) # 'float'
 
