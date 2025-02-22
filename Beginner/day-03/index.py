@@ -108,7 +108,7 @@
 #         bill = 12
 #         print('Adult tickets are: $12')
 
-#     wants_photo = input('Do you want a photo taken? Y or N. ')
+#     wants_photo = input('Do you want a photo taken? Y or N. ').upper()
 #     if wants_photo == 'Y':
 #         # Add $3 to the bill
 #         bill += 3
@@ -126,7 +126,7 @@
 # print('Thank you for choosing Python Pizza Deliveries')
 # bill = 0
 
-# size = input('What size piece do you want? S, M, L. ')
+# size = input('What size piece do you want? S, M, L. ').upper()
 # if size == 'S':
 #     bill += 15
 # elif size == 'M':
@@ -134,7 +134,7 @@
 # elif size == 'L':
 #     bill += 25
 
-# add_pepperoni = input('Do you want Pepperoni? Y or N. ')
+# add_pepperoni = input('Do you want Pepperoni? Y or N. ').upper()
 # if add_pepperoni == 'Y':
 #     if size == 'S':
 #         bill += 2
@@ -145,7 +145,7 @@
 # else:
 #     print('Ok.')
 
-# extra_cheese = input('Do you want extra cheese? Y or N. ')
+# extra_cheese = input('Do you want extra cheese? Y or N. ').upper()
 # if extra_cheese == 'Y':
 #     bill += 1
 # else:
@@ -154,7 +154,7 @@
 # print(f"Your final bill is: ${bill}")
 
 
-# ---------------------- 10: Logical Operators [&, or, not]
+# ---------------------- 10: Logical Operators [and, or, not]
 
 # height = int(input("Enter your height (in cm): "))
 # bill = 0
@@ -164,15 +164,15 @@
 #     age = int(input('Enter your age: '))
 #     if age < 12:
 #         bill = 5
-#         print('Child tickets are: $5')
+#         print(f"Child tickets are: ${bill}")
 #     elif age <= 18:
 #         bill = 7
-#         print('Youth tickets are: $7')
+#         print(f"Youth tickets are: ${bill}")
 #     elif age >= 45 and age <= 55:
 #         print('Everything is going to be ok. Have a free ride!')
 #     else:
 #         bill = 12
-#         print('Adult tickets are: $12')
+#         print(f"Adult tickets are: ${bill}")
 
 # else:
 #     print('You are not eligible to have the ride')
