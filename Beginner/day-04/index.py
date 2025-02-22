@@ -132,7 +132,7 @@ import random
 # print(states_of_america[num_of_states])  # IndexError: list index out of range
 
 # ---- solution for Index error
-# writing ' -1 ' will covert 1 to 0, 4 becomes 3, etc
+# writing ' -1 ' will convert 1 to 0, 4 becomes 3, etc
 # print(states_of_america[num_of_states - 1])
 
 # ----- Nested lists
