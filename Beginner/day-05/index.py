@@ -7,13 +7,16 @@
 # fruits = ['Apple', 'Mango', 'Grapes']
 # for fruit in fruits:
 #     print(fruit)  # Ans: Apple, Mango, Grapes
-# print(fruits) # Ans:  ['Apple', 'Mango', 'Grapes'], 3 times print b/c of 3 items in the list
+
+# if 'fruits' --> Ans:  ['Apple', 'Mango', 'Grapes'], 3 times print b/c of 3 items in the list
+
+# print(fruits) # Ans:  ['Apple', 'Mango', 'Grapes'], only once
 
 # BTS: each time a fruit's value is assigned a variable named 'fruit'
 
 # print(fruit + 'Pie')  # Apple, ApplePie, Mango, MangoPie, Grapes, GrapesPie
 
-# print(fruits)  # Ans:  ['Apple', 'Mango', 'Grapes'], only once
+# print(fruit)
 
 #
 
